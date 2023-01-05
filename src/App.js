@@ -1,5 +1,7 @@
+import { useState } from 'react'
+
 // Import data
-import { postings } from './postings';
+import { mockData } from './postings';
 
 // Import components
 import SearchBar from './Components/SearchBar';
@@ -9,6 +11,7 @@ import Gallery from './Components/Gallery';
 import './App.css';
 
 function App(){
+  const [postings, setPostings] = useState(mockData)
   return (
     <div>
       <h1>craigslist</h1>

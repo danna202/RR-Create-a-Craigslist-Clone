@@ -1,4 +1,4 @@
-export const postings = [
+export const mockData = [
     {
         title: "Car For Sale",
         description: "Dope 1989 Honda Civic on 22\" rims, don't waste my time I know what I have",
